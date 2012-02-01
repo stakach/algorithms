@@ -64,12 +64,12 @@ Done so far:
 
 ## REQUIREMENTS:
 
-* Ruby 1.8 compatible Ruby, or Ruby 1.9
+* Ruby 1.8 compatible Ruby, or Ruby 1.9, should also work with jRuby
 * C compiler for C extensions (optional, but very much recommended for vast performance benefits)
 
 ## INSTALL:
 
-* sudo gem install algorithms
+* sudo gem install stakach-algorithms
 
 ## LICENSE:
 

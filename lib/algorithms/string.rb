@@ -3,6 +3,8 @@
     
 =end
 
+
 begin
-  require 'CString'
+	require 'CString' unless RUBY_PLATFORM =~ /java/
+rescue
 end
