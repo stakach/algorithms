@@ -396,7 +396,7 @@ module Algorithms
   begin
     require 'CRBTreeMap'
     Containers::RBTreeMap = Containers::CRBTreeMap
-  rescue LoadError # C Version could not be found, try ruby version
+  rescue  # C Version could not be found, try ruby version
     Containers::RBTreeMap = Containers::RubyRBTreeMap
   end
 end
