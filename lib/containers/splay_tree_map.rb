@@ -267,7 +267,7 @@ module Algorithms
   begin
     require 'CSplayTreeMap'
     Containers::SplayTreeMap = Containers::CSplayTreeMap
-  rescue # C Version could not be found, try ruby version
+  rescue Object # C Version could not be found, try ruby version
     Containers::SplayTreeMap = Containers::RubySplayTreeMap
   end
 end
