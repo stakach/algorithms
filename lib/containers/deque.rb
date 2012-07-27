@@ -169,7 +169,7 @@ module Algorithms
   begin
     require 'CDeque'
     Containers::Deque = Containers::CDeque
-  rescue  # C Version could not be found, try ruby version
+  rescue Object  # C Version could not be found, try ruby version
     Containers::Deque = Containers::RubyDeque
   end
 
