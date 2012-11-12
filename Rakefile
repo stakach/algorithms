@@ -5,11 +5,11 @@ OBJ = FileList['**/*.rbc']
 CLEAN.include(OBJ)
 
 
-Rake::ExtensionTask.new('algorithms/string')
-Rake::ExtensionTask.new('containers/bst')
-Rake::ExtensionTask.new('containers/deque')
-Rake::ExtensionTask.new('containers/rbtree_map')
-Rake::ExtensionTask.new('containers/splaytree_map')
+Rake::ExtensionTask.new('CString')
+Rake::ExtensionTask.new('CBst')
+Rake::ExtensionTask.new('CDeque')
+Rake::ExtensionTask.new('CRBTreeMap')
+Rake::ExtensionTask.new('CSplayTreeMap')
 
 
 
