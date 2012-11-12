@@ -1,5 +1,4 @@
-$: << File.join(File.expand_path(File.dirname(__FILE__)), '..', 'lib')
-require 'algorithms'
+require 'helper'
 
 describe "empty suffix array" do
   it "should not initialize with empty string" do

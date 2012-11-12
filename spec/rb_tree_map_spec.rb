@@ -1,7 +1,6 @@
-$: << File.join(File.expand_path(File.dirname(__FILE__)), '..', 'lib')
-require 'algorithms'
+require 'helper'
 
-describe "empty rbtree", :shared => true do
+shared_examples_for "empty rbtree" do
   it "should let you push stuff in" do
     100.times { |x| @tree[x] = x }
     @tree.size.should eql(100)
@@ -31,7 +30,7 @@ describe "empty rbtree", :shared => true do
   end
 end
 
-describe "non-empty rbtree", :shared => true do
+shared_examples_for "non-empty rbtree" do
   before(:each) do
     @num_items = 1000
     @random_array = Array.new(@num_items) { rand(@num_items) }

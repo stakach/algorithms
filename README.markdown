@@ -1,11 +1,13 @@
 # algorithms
 
-* Official homes are here on github, and at [rubyforge](http://rubyforge.org/projects/algorithms/)
+[![build status](https://secure.travis-ci.org/stakach/algorithms.png)](http://travis-ci.org/stakach/algorithms)
+
+* Official homes are here on github, and at [RubyGems](https://rubygems.org/gems/stakach-algorithms)
 * Documentation: [http://algorithms.rubyforge.org/](http://algorithms.rubyforge.org/)
 
 ## DESCRIPTION:
 
-Started as a [Google Summer of Code 2008](http://code.google.com/soc/2008/ruby/about.html) project
+Started as a Google Summer of Code 2008 project
 
 Written by [Kanwei Li](http://kanwei.com/), mentored by Austin Ziegler
 

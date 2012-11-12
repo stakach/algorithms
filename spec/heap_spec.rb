@@ -1,5 +1,4 @@
-$: << File.join(File.expand_path(File.dirname(__FILE__)), '..', 'lib')
-require 'algorithms'
+require 'helper'
 
 describe Algorithms::Containers::Heap do
   before(:each) do

@@ -1,7 +1,6 @@
-$: << File.join(File.expand_path(File.dirname(__FILE__)), '..', 'lib')
-require 'algorithms'
+require 'helper'
 
-describe "empty splaytree", :shared => true do
+shared_examples_for "empty splaytree" do
   it "should let you push stuff in" do
     100.times { |x| @tree[x] = x }
     @tree.size.should eql(100)
@@ -25,7 +24,7 @@ describe "empty splaytree", :shared => true do
   end
 end
 
-describe "non-empty splaytree", :shared => true do
+shared_examples_for "non-empty splaytree" do
   before(:each) do
     @num_items = 100
     @random_array = []

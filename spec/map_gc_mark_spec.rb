@@ -1,5 +1,4 @@
-$: << File.join(File.expand_path(File.dirname(__FILE__)), '..', 'lib')
-require 'algorithms'
+require 'helper'
 
 if RUBY_VERSION < "1.9"
 describe "map gc mark test" do
