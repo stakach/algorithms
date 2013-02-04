@@ -1,5 +1,8 @@
 # algorithms
 
+NOTE:: Please use kanwei algorithms as the project is active again https://github.com/kanwei/algorithms
+
+
 [![build status](https://secure.travis-ci.org/stakach/algorithms.png)](http://travis-ci.org/stakach/algorithms)
 
 * Official homes are here on github, and at [RubyGems](https://rubygems.org/gems/stakach-algorithms)
